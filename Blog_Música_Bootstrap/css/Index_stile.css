@@ -1,0 +1,53 @@
+.Prim_na{
+  background: #c75b39;
+  min-height: 50px
+}
+
+.bck_grd{
+  background: #ff8a65;
+}
+
+
+
+.seg_na{
+  color: black;
+  border-color: black;
+  border-width: 2px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+.seg_na:hover{
+  background: #c75b39;
+  border-color: black;
+}
+
+.blc{
+  color: black;
+}
+
+.blc:hover{
+  color: black
+}
+
+.logo{
+  border-radius: 10px;
+}
+
+.ico{
+  color: #ffc107;
+}
+
+.bck_bsq{
+  background: #ffc107;
+}
+
+.bsq{
+  color: black;
+}
+
+.bsq:hover{
+
+  color: black;
+  transform: scale(1.2);
+}
