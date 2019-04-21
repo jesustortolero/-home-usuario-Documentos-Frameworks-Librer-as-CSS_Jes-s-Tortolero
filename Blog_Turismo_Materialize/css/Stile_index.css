@@ -1,0 +1,44 @@
+body{
+    background:  url(../Imagenes/Fondo.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+.HM{
+  max-height: 5rem;
+  margin-left: 4rem;
+  margin-top: 2rem;
+  border-radius: 5px;
+}
+
+.H_per{
+  margin-left: 12rem;
+}
+
+.im_w{
+  width: 100%
+}
+
+.img_w2{
+  width:51%
+}
+
+.pin{
+  padding: 1rem;
+}
+
+.ttp{
+  font-family: 'Inconsolata', monospace;
+  font-weight: bold;
+}
+
+.lm{
+  margin-left: 10px;
+}
+
+.jt{
+  text-align: justify;
+  text-justify: inter-word;
+}
