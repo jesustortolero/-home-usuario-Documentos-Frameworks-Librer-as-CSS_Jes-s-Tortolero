@@ -1,3 +1,4 @@
+/* Imagen fondo*/
 body{
   background:  url(../Imagenes/Fondo_ciudad.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -6,97 +7,115 @@ body{
   background-size: cover;
 }
 
-
+/* color fondo Nav*/
 .prim{
   background-color: #071726;
   color: white;
-
 }
 
-.MR{
-  margin-right: 3rem;
-}
-
-.lin_1{
-  margin-top: 5px;
-  border-right: 2px solid #2f3d4e ;
-  border-bottom: 2px solid #9f0000 ;
-}
-
-.bckg_1{
-  background-color: rgba(255, 255, 255, 0.96);
-}
-
-
-.lin_2{
-  border-right: 2px solid #071726 ;
-  padding-top: 20px;
-}
-
-.lin_3{
-  border-bottom: 2px solid #9f0000;
-}
-
+/* fuente del logo*/
 .lin_1 > h1{
   font-family: 'Gloria Hallelujah', cursive;
   margin-top: 2px;
   margin-bottom: 2px;
 }
 
+/* margen slogan*/
+.MR{
+  margin-right: 3rem;
+}
+
+/*línea y margen top de nav*/
+.lin_1{
+  margin-top: 5px;
+  border-right: 2px solid #2f3d4e ;
+  border-bottom: 2px solid #9f0000 ;
+}
+
+/* línea roja de nav*/
+.lin_3{
+  border-bottom: 2px solid #9f0000;
+}
+
+
+/* color de fondo del contenedor*/
+.bckg_1{
+  background-color: rgba(255, 255, 255, 0.96);
+}
+
+/* borde de separación búsqueda/contenido*/
+.lin_2{
+  border-right: 2px solid #071726 ;
+  padding-top: 20px;
+}
+
+/*fondo de icono de búsqueda*/
 .bck_bsq{
   background-color: white;
 }
 
-
-
+/*icono de búsqueda*/
 .ico_bsq{
   color: #d91111;
 }
-
-.ico_cmt{
-  color: #d91111;
-  text-shadow: 1px 0px 0px #ffffff, 5px 0px 0px #2f3d4e, -1px 0px 0px #ffffff, -5px 0px 0px #2f3d4e;
-}
-
+/*animación icono de búsqueda*/
 .ico_bsq:hover{
   transform: scale(1.2);
   color: #9f0000;
 }
-
-.MH{
-  margin-bottom: 10px;
-}
-
+/* paddin izquierdo del historial*/
 .MH > ul{
   padding-left: 10px
 }
 
+/* especificaciones de imagen*/
 .IMAR{
   min-width: 90%;
   max-height: 30rem;
-
 }
 
-.PX{
-  padding-left: 0px;
-}
-
+/*alineación de Imagen*/
 .content {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.hr_c{
-  border-color: #071726;
+/*sombra icono de comentarios*/
+.ico_cmt{
+  color: #d91111;
+  text-shadow: 1px 0px 0px #ffffff, 5px 0px 0px #2f3d4e, -1px 0px 0px #ffffff, -5px 0px 0px #2f3d4e;
 }
 
+/*fondo de comentarios*/
 .comn_spc{
   background-color: white;
   border: 1px solid #071726;
 }
 
+/* borde de separación de comentarios y tamño de iconos*/
 .spr{
   border-right: 1px solid #071726;
   font-size: 3rem;
+}
+
+/*color de divisor hr*/
+.hr_c{
+  border-color: #071726;
+}
+
+/*margen bajo de 10px*/
+.MH{
+  margin-bottom: 10px;
+}
+
+/* paddin izquierdo opx*/
+.PX{
+  padding-left: 0px;
+}
+
+@media (max-width: 375px) {
+  .spr{
+    font-size: 2rem;
+  }
 }

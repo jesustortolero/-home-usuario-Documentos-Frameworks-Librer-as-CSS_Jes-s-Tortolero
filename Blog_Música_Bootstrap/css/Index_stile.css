@@ -1,14 +1,20 @@
+/* color de fondo y haltura de la barra de nav*/
 .Prim_na{
   background: #c75b39;
   min-height: 50px
 }
 
+/*bode del logo*/
+.logo{
+  border-radius: 10px;
+}
+
+/*fondo de botones*/
 .bck_grd{
   background: #ff8a65;
 }
 
-
-
+/* propiedades para lo botones de nav*/
 .seg_na{
   color: black;
   border-color: black;
@@ -17,37 +23,43 @@
   font-weight: bold;
 }
 
+/* propiedades para lo botones de nav*/
 .seg_na:hover{
   background: #c75b39;
   border-color: black;
 }
 
+/* Iconos de redes*/
 .blc{
   color: black;
 }
-
+/* Iconos de redes*/
 .blc:hover{
   color: black
 }
 
-.logo{
-  border-radius: 10px;
-}
-
+/* colo del icono de comentario*/
 .ico{
   color: #ffc107;
 }
 
+/* fondo de icono de búsqueda */
 .bck_bsq{
   background: #ffc107;
 }
 
+/*Icono de busqueda*/
 .bsq{
   color: black;
 }
-
+/*Icono de busqueda*/
 .bsq:hover{
-
   color: black;
   transform: scale(1.2);
+}
+
+/*fondo de active*/
+.active{
+  background-color: #c75b39!important;
+  border-color: #ffbb93!important;
 }

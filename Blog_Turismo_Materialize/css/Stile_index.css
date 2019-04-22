@@ -1,3 +1,4 @@
+/*fodo del body*/
 body{
     background:  url(../Imagenes/Fondo.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -5,30 +6,42 @@ body{
     -o-background-size: cover;
     background-size: cover;
   }
-
+/*configuración del logo*/
 .HM{
   max-height: 5rem;
   margin-left: 4rem;
   margin-top: 2rem;
   border-radius: 5px;
 }
-
+/*configuración del slogan*/
 .H_per{
-  margin-left: 12rem;
+  margin-left: 10rem;
+  font-weight: bold;
+}
+/*espaciado eje y*/
+.spc {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
 }
 
+/*ancho de imagen*/
 .im_w{
   width: 100%
 }
 
+/*ancho de imagen*/
 .img_w2{
   width:51%
 }
-
+/*ancho de imagen*/
+.img_w3{
+  width: 100%;
+}
+/*padding 1rem*/
 .pin{
   padding: 1rem;
 }
-
+/*configuración de botones*/
 .ttp{
   font-family: 'Inconsolata', monospace;
   font-weight: bold;
@@ -38,7 +51,27 @@ body{
   margin-left: 10px;
 }
 
+/*justificado del texto*/
 .jt{
   text-align: justify;
   text-justify: inter-word;
+}
+
+@media (max-width: 429px) {
+  .HM{
+    margin: 1rem;
+
+  }
+
+  .H_per{
+    margin-left: 6.5rem;
+    font-weight: bold;
+  }
+
+
+
+  .img_w3{
+    width: 95%!important;
+  }
+
 }
